@@ -470,31 +470,31 @@ async def leaderboard(ctx, x=10):
     await ctx.send(embed=em)
 
 page1 = discord.Embed(title="General Help Commands!:", description="""
-    **!invites**(The Reward is Experimental) Adds your ID in the database, tracks your invite and gives you vSiri.
-    **!deposit or !dp <amt>** deposits your vpkt wallet balance into your bank.
-    **!withdraw or !wd <amt>** brings back your deposited bank balance into your wallet.
-    **!exch <siri wallet address>** converts your vpkt into mkpt Price: 500vsiri = 500siri
-    **!vsiri** #explains what is bot coins.
-    **!leaderboard or !lb <argument ex: 4>** Shows The top richest people with botcoins
-    **!about** shows all information of the bot.
-    **!help** Shows this command.
-    **!bal** Shows Your Bot Coin Balance.
-    **!claim** gives bot coins (u might get coins from 1-80).
-    **!send <Member ping> <coins>** sends your bal to another person.
-    **!pingnet** (Experimental) Pings each and every pools of siricoin and tells its stats.""", colour=discord.Colour.orange())
+    **?invites**(The Reward is Experimental) Adds your ID in the database, tracks your invite and gives you vSiri.
+    **?deposit or !dp <amt>** deposits your vpkt wallet balance into your bank.
+    **?withdraw or !wd <amt>** brings back your deposited bank balance into your wallet.
+    **?exch <siri wallet address>** converts your vpkt into mkpt Price: 500vsiri = 500siri
+    **?vsiri** #explains what is bot coins.
+    **?leaderboard or !lb <argument ex: 4>** Shows The top richest people with botcoins
+    **?about** shows all information of the bot.
+    **?help** Shows this command.
+    **?bal** Shows Your Bot Coin Balance.
+    **?claim** gives bot coins (u might get coins from 1-80).
+    **?send <Member ping> <coins>** sends your bal to another person.
+    **?pingnet** (Experimental) Pings each and every pools of siricoin and tells its stats.""", colour=discord.Colour.orange())
 page2 = discord.Embed(title="Moderation Help Commands!:", description="""
-    **!sysload** Shows the VPS CPU Stats.
-    **!ping** Shows the latency of the bot.
-    **!setclear <number> (Requires admin perms)** clears the messages that you mentioned.
-    **!ban <mention mem> (Requires admin perms)** Bans the mentioned member in the guild.
-    **!unban <member with discriminator> (Requires admin perms)** unbans the mentioned member in the guild.
-    **!mute <mention mem> <Duration> (Requires admin perms)** mutes mentioned member for mentioned duration.
-    **!unmute <member> (Requires admin perms)** unmutes mentioned member in the guild.
-    **!kick <mention mem> (Requires admin perms)** kicks the mentioned member from the guild.""", colour=discord.Colour.orange())
+    **?sysload** Shows the VPS CPU Stats.
+    **?ping** Shows the latency of the bot.
+    **?setclear <number> (Requires admin perms)** clears the messages that you mentioned.
+    **?ban <mention mem> (Requires admin perms)** Bans the mentioned member in the guild.
+    **?unban <member with discriminator> (Requires admin perms)** unbans the mentioned member in the guild.
+    **?mute <mention mem> <Duration> (Requires admin perms)** mutes mentioned member for mentioned duration.
+    **?unmute <member> (Requires admin perms)** unmutes mentioned member in the guild.
+    **?kick <mention mem> (Requires admin perms)** kicks the mentioned member from the guild.""", colour=discord.Colour.orange())
 page3 = discord.Embed(title="Shreyas-ITB Help Commands!:", description="""
     **This Commands IS ONLY ACCESSIBLE For Shreyas-ITB!**
-    **!shutdown (Requires Shreyas)** If any emergency, This ShutsDown Mr.PKT.
-    **!gstart <duration> <reward> (Requires Shreyas)** Hosts A giveaway and pics a winner.""", colour=discord.Colour.orange())
+    **?shutdown (Requires Shreyas)** If any emergency, This ShutsDown Mr.PKT.
+    **?gstart <duration> <reward> (Requires Shreyas)** Hosts A giveaway and pics a winner.""", colour=discord.Colour.orange())
 
 client.help_pages = [page1, page2, page3]
 
